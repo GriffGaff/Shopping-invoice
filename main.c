@@ -127,13 +127,14 @@ int main(){
                 fclose(fp);
                 break;
             }
-            /*else if(saveBill == 'n'){
+            else if(saveBill == 'n'){
                 printf("\n Invoice not saved.");
                 break;
             }
             else{printf(" command not recognized");}
             break;
-        }*/
+        }
+    //Checking the difference in the effect of 'ord' and 'order' structs
 
 /**    case 2:
 
