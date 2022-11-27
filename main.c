@@ -112,11 +112,11 @@ int main(){
             generateBillBody(ord.itm[i].item, ord.itm[i].qty, ord.itm[i].price);
         }
         generateBillFooter(total, discount);
-
+i
         printf("\n\n\n Save invoice [y/n] ?\t");
         scanf("%s", &saveBill);
         //saving the invoice. the while loop will always be executed
-        //while('0' == '0'){
+        while('0' == '0'){
             if(saveBill == 'y'){
                 fp = fopen("RestaurantBill.dat", "a+");
                 fwrite(&ord,sizeof(struct orders), 1, fp);
@@ -127,13 +127,14 @@ int main(){
                 fclose(fp);
                 break;
             }
-            /*else if(saveBill == 'n'){
+            else if(saveBill == 'n'){
                 printf("\n Invoice not saved.");
                 break;
             }
             else{printf(" command not recognized");}
             break;
-        }*/
+        }
+    //Checking the difference in the effect of struct name 'ord' and 'order'
 
 /**    case 2:
 
