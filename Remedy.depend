@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1669398277 source:c:\users\user\documents\works\remedy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
