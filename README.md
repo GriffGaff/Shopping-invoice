@@ -53,5 +53,5 @@ Open a pull request, explaining your changes and their purpose.
 This project is licensed under the MIT License
 
 We hope you find the Shopping Invoice Generator useful for managing your purchase records!
-Contact me at [email](#bolajibaqi@gmail.com)
+Contact me at [bolajibaqi@gmail.com](bolajibaqi@gmail.com)
 
