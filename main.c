@@ -134,9 +134,7 @@ i
             else{printf(" command not recognized");}
             break;
         }
-<<<<<<< HEAD
     //Checking the difference in the effect of struct name 'ord' and 'order'
->>>>>>> 690d6d1b5b718cea41b303a5e15d1f424bd3c4ba
 
 /**    case 2:
 
